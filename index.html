@@ -1,0 +1,38 @@
+<!--<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"> -->
+
+<!DOCTYPE html>
+    <head>
+        <title>Weather information as per the lattitude and longittude</title>
+        <link href='https://fonts.googleapis.com/css?family=Bree Serif' rel='stylesheet'>
+        <link rel="stylesheet" type="text/css" href="weatherStyle.css"/>
+     </head>
+    <body>
+        <div id="container">
+            <div id="header">
+                <h1>Today's Weather</h1>
+            </div>
+            <!--<div id="getaddress">
+                <input id="textaddress" type="text"
+                       placeholder="Enter an address"
+                       onfocus="this.placeholder = ''"
+                       onblur="this.placeholder = 'Enter an address'"/>
+                <input id="searchbutton" type="button" value="Search"/>
+            </div>-->
+            <div id="weatherresult">
+                <h2>Local Weather</h2>
+                <p id="namePlace"></p>
+                <p><span id="temperature"></span><span id="degname">C</span></p>
+                <p id="weathercond"></p>
+                <div id="icondiv">
+                    <img id="imageicon"/>
+                </div>
+                <!--<input id="degbutton" type="button" value="C"/>-->
+            </div>
+            <div id="footer">
+                <p><strong>Copyright 2017 | Sunshine | Weather information</strong></p>
+            </div>
+        </div> <!--end of container -->
+        <script src="weatherScript.js"></script>
+    </body>
